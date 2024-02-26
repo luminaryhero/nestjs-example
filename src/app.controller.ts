@@ -16,7 +16,7 @@ export class AppController {
       code: 0,
       message: 'ok',
       data: {
-        name: name,
+        name: this.appService.setHi(name),
       },
     };
   }
